@@ -49,7 +49,7 @@ public class DatabaseStorage extends Storage {
 	private static final Logger LOGGER = LoggerFactory.getLogger(DatabaseStorage.class);
 
 	private static final String[] INCOMING_DATE_PATTERNS = new String[] {
-			"yyyy-MM-dd'T'HH:mm:ss.SSS", "yyyy-MM-dd'T'HH:mm:ss", "yyyy-MM-dd" };
+			"yyyy-MM-dd'T'HH:mm:ss.SSS", "yyyy-MM-dd'T'HH:mm:ss", "yyyy-MM-dd", "yyyy-MM-dd'T'HH:mm:ss.SSSSSS+hh:mm" , "yyyy-MM-dd'T'HH:mm:ss+hh:mm", "yyyy-MM-dd'T'HH:mm:ss.SSSSSS-hh:mm" , "yyyy-MM-dd'T'HH:mm:ss-hh:mm"};
 
 	private String driver;
 
